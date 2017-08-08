@@ -1,10 +1,6 @@
 package patterns.module.builder;
 
-class ShapeCreator {
-
-    /*
-    * Uruchamia buldiera
-    * */
+class Director {
 
     private ShapeBuilder shapeBuilder;
 
