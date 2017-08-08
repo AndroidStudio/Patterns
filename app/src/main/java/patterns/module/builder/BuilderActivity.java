@@ -18,22 +18,22 @@ public class BuilderActivity extends Activity {
     }
 
     private void buildBlueShape() {
-        ShapeFactory shapeFactory = new ShapeFactory();
-        shapeFactory.setShapeBuilder(new BlueShapeBuilder());
-        shapeFactory.buildShape();
+        ShapeCreator shapeCreator = new ShapeCreator();
+        shapeCreator.setShapeBuilder(new BlueShapeBuilder());
+        shapeCreator.buildShape();
 
-        Shape shape = shapeFactory.getShape();
+        Shape shape = shapeCreator.getShape();
         int color = shape.getColor();
         int height = shape.getHeight();
         int width = shape.getWidth();
     }
 
     private void buildRedShape() {
-        ShapeFactory shapeFactory = new ShapeFactory();
-        shapeFactory.setShapeBuilder(new RedShapeBuilder());
-        shapeFactory.buildShape();
+        ShapeCreator shapeCreator = new ShapeCreator();
+        shapeCreator.setShapeBuilder(new RedShapeBuilder());
+        shapeCreator.buildShape();
 
-        Shape shape = shapeFactory.getShape();
+        Shape shape = shapeCreator.getShape();
         int color = shape.getColor();
         int height = shape.getHeight();
         int width = shape.getWidth();
