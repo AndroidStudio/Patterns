@@ -6,6 +6,9 @@ import android.support.annotation.Nullable;
 
 public class DecoratorActivity extends Activity {
 
+    /*
+    * Dodaje nowe funkcje lub rozbudowuje istniejące
+    * */
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
