@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 public class BuilderActivity extends Activity {
 
     /*
-    * Tworz
+    * Zarządza procesem budowy obiektu
     * */
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
