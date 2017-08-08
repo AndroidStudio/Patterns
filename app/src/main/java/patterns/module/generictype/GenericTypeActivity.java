@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import java.util.ArrayList;
+
 /*
 * Rożne typy danych na liście
 * */
@@ -18,5 +20,6 @@ public class GenericTypeActivity extends Activity {
         genericTypeListBase.addItem(new ModelA());
         genericTypeListBase.addItem(new BaseModel());
 
+        ArrayList<BaseModel> types = genericTypeListBase.getTypes();
     }
 }
