@@ -3,7 +3,7 @@ package patterns.module.singleton;
 class Singleton {
 
     /*
-    * 1.Tworzy jedną instancja obiektu danej klasy
+    * 1.Tworzy jeden egzamplarz danej klasy
     * 2.Dostęp do singletonu jest globalny;
     *
     * 3.Jeśli używany z activity moze powodować memory leak
