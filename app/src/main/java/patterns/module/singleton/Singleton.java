@@ -7,7 +7,7 @@ class Singleton {
     * 2.Dostęp do singletonu jest globalny;
     *
     * 3.Jeśli używany z activity moze powodować memory leak
-    * 4.Bibloteki z singletonem (Knox,Glide,DotPay,Picasso)
+    * 4.Bibloteki z singletonem (Knox)
     * */
     private static Singleton singleton = null;
 
